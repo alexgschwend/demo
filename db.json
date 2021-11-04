@@ -69,10 +69,6 @@
       "body": "ut aspernatur corporis harum nihil quis provident sequi\nmollitia nobis aliquid molestiae\nperspiciatis et ea nemo ab reprehenderit accusantium quas\nvoluptate dolores velit et doloremque molestiae"
     }
   ],
-  "comments": [
-    { "id": 1, "name": "some comment", "postId": 1 },
-    { "id": 2, "name": "some comment", "postId": 1 }
-  ],
   "translation_models": [
     {
       "id": 1,
