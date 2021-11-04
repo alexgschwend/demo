@@ -155,12 +155,93 @@
     }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+    { "id": 1, "name": "some comment", "postId": 1 },
+    { "id": 2, "name": "some comment", "postId": 1 }
   ],
-  "translations": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "translation_models": [
+    {
+      "id": 1,
+      "name": "Translate into German",
+      "hasF": false,
+      "hasP": true,
+      "hasT": false
+    },
+    {
+      "id": 2,
+      "name": "Translate into English",
+      "hasF": false,
+      "hasP": true,
+      "hasT": false
+    },
+    {
+      "id": 3,
+      "name": "Translate into Italian",
+      "hasF": false,
+      "hasP": true,
+      "hasT": false
+    },
+    {
+      "id": 4,
+      "name": "Translate into French",
+      "hasF": false,
+      "hasP": true,
+      "hasT": false
+    },
+    {
+      "id": 5,
+      "name": "Translate into Polish",
+      "hasF": false,
+      "hasP": true,
+      "hasT": false
+    }
+  ],
+  "organisations": [
+    {
+      "id": 1,
+      "name": "org 1",
+      "is_default_organisation": false,
+      "languages": [
+        { "id": 1, "tag": "en" },
+        { "id": 2, "tag": "de" }
+      ],
+      "translation_model_priorities": [
+        {
+          "translation_model_id": 2,
+          "priority": 1
+        },
+        {
+          "translation_model_id": 2,
+          "priority": 1
+        },
+        {
+          "translation_model_id": 4,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "org 2",
+      "is_default_organisation": false,
+      "languages": [
+        { "id": 1, "tag": "en" },
+        { "id": 2, "tag": "de" }
+      ],
+      "translation_model_priorities": [
+        {
+          "translation_model_id": 3,
+          "priority": 1
+        },
+        {
+          "translation_model_id": 1,
+          "priority": 1
+        },
+        {
+          "translation_model_id": 5,
+          "priority": 2
+        }
+      ]
+    }
   ],
   "profile": {
     "name": "typicode"
