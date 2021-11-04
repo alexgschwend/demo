@@ -106,54 +106,6 @@
       "hasT": false
     }
   ],
-  "organisations": [
-    {
-      "id": 1,
-      "name": "org 1",
-      "is_default_organisation": false,
-      "languages": [
-        { "id": 1, "tag": "en" },
-        { "id": 2, "tag": "de" }
-      ],
-      "translation_model_priorities": [
-        {
-          "translation_model_id": 2,
-          "priority": 1
-        },
-        {
-          "translation_model_id": 2,
-          "priority": 1
-        },
-        {
-          "translation_model_id": 4,
-          "priority": 2
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "name": "org 2",
-      "is_default_organisation": false,
-      "languages": [
-        { "id": 1, "tag": "en" },
-        { "id": 2, "tag": "de" }
-      ],
-      "translation_model_priorities": [
-        {
-          "translation_model_id": 3,
-          "priority": 1
-        },
-        {
-          "translation_model_id": 1,
-          "priority": 1
-        },
-        {
-          "translation_model_id": 5,
-          "priority": 2
-        }
-      ]
-    }
-  ],
   "profile": {
     "name": "typicode"
   }
