@@ -83,8 +83,8 @@
           "priority": 1
         },
         {
-          "translation_model_id": 2,
-          "priority": 1
+          "translation_model_id": 5,
+          "priority": 3
         },
         {
           "translation_model_id": 4,
